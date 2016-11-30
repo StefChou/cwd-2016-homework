@@ -1,5 +1,5 @@
 function vozilo (cigari, cena, vozilo){
-	var cena_na_den = cigari / 20 * 2;
+	var cena_na_den = cigari / 20 * (cena / 61.5);
 	console.log(cena_na_den);
 	var denovi = vozilo / cena_na_den;
 	console.log("vkupno denovi " + denovi);
@@ -12,7 +12,7 @@ function vozilo (cigari, cena, vozilo){
 }
 
 var cigari = 15;
-var cena = 2;
+var cena = 125;
 var dacia = 11000;
 var skoda = 14000;
 var vw = 20000;
